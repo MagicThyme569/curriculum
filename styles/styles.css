@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --ciano: #00CBFF;
+    --roxinho: #8592DF;
+    --rosa-pastel: #F2CED8;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Comic Sans;
+    src: url(/fonts/COMIC.TTF);
+}
+.cabecalho__menu__link{
+text-decoration: none;
+font-family: Comic Sans;
+font-size: 1.5rem;
+font-weight: 600;
+color: rgb(86, 60, 110);
+}
+.cabecalho{
+    padding: 0.3% 1% 2% 0%;
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 500px;
+}
+.cabecalho__menu__links__link:hover{
+    color: bisque;
+    transition: 300ms ease;
+}
+.apresentacao__imagem{
+width: 20%;
+border-radius: 100px;
+}
+.apresentacao{
+font-family: Comic Sans;
+margin: 5% 15%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 82px;
+}
+.apresentacao__conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.github__logo{
+    width: 4rem;
+}
+
+body{
+    transition: 1.2s;
+    box-sizing: border-box;
+    background-color: var(--roxinho);
+}
+
+.trilho{
+    width: 100px;
+    height: 50px;
+    background-color: #c3c3c3;
+    border-radius: 150px;
+    position: relative;
+    cursor: pointer;
+}
+
+ .trilho .indicador{
+    display: flex;
+    align-items: flex-start;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    transform: scale(.9);
+    position: absolute;
+    left: 0;
+    transition: 1.2s;
+}
+
+.trilho.light{
+    background-color: #4d4d4d;
+}
+
+.trilho.light .indicador{
+    left: 50px;
+    background-color: black;
+}
+body.light{
+    background-color: black;
+}
+body.light h1{
+    color: var(--rosa-pastel);
+}
+
+body.light p{
+    color: gray;
+}
+
+body.light h2{
+    color: var(--ciano);
+}
+
+.apresentacao__conteudo__imagem{
+    width: 500px;
+}
+body.light ul{
+    color: var(--roxinho);
+}
+.apresentacao__conteudo__titulo{
+    font-size: 2.25rem;
+}
+.titulo-destaque{
+    color: var(--ciano);
+}
+.apresentacao__conteudo__texto{
+    font-size: 1.5rem;
+    font-family: Comic Sans;
+}
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.apresentacao__links__subtitulo{
+    font-family: Comic Sans;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.apresentacao__links__navegacao{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 1px solid var(--ciano);
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21px 0;
+    text-decoration: none;
+    color: var(--ciano);
+    font-family: Comic Sans;
+}
+.apresentacao__links__navegacao:hover{
+    background-color: var(--rosa-pastel);
+    transition: 1s ease;
+    padding: 5%;
+}
+.aprensentacao__conteudo__texto{
+    font-size: 2rem;
+}
