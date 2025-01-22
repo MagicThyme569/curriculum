@@ -31,7 +31,7 @@ color: rgb(86, 60, 110);
     transition: 300ms ease;
 }
 .apresentacao__imagem{
-width: 200%;
+width: 0%;
 border-radius: 100px;
 }
 .apresentacao{
