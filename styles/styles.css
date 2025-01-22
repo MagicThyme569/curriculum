@@ -31,8 +31,8 @@ color: rgb(86, 60, 110);
     transition: 300ms ease;
 }
 .apresentacao__imagem{
-width: 20%;
-border-radius: 10px;
+width: 200%;
+border-radius: 100px;
 }
 .apresentacao{
 font-family: Comic Sans;
