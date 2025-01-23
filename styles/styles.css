@@ -32,7 +32,7 @@ color: rgb(86, 60, 110);
 }
 .apresentacao__imagem{
 width: 20%;
-border-radius: 0px;
+border-radius: 10000px;
 }
 .apresentacao{
 font-family: Comic Sans;
