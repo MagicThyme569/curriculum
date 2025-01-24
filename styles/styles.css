@@ -27,7 +27,7 @@ color: rgb(86, 60, 110);
     gap: 500px;
 }
 .cabecalho__menu__links__link:hover{
-    color: cyan;
+    color: bisque;
     transition: 300ms ease;
 }
 .apresentacao__imagem{
@@ -149,7 +149,7 @@ body.light ul{
     font-family: Comic Sans;
 }
 .apresentacao__links__navegacao:hover{
-    background-color: navajowhite;
+    background-color: purple;
     transition: 1s ease;
     padding: 5%;
 }
