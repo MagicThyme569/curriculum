@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a href="index.html" class="cabecalho__menu__link cabecalho__menu__links__link">Home </a>
+            <a href="about.html" class="cabecalho__menu__link cabecalho__menu__links__link">Sobre mim </a>
+            <a href="curriculo.html" class="cabecalho__menu__link cabecalho__menu__links__link">Curriculo</a>
+            <a href="login.html" class="cabecalho__menu__link cabecalho__menu__links__link">Login</a>
+            <div class="trilho" id="trilho">
+                <div class="indicador"></div>
+            </div>
+        </nav>
+        </header>
+<div class="registro__geral">
+    <form action="">
+        <fieldset>
+        <legend class="texto__registro"><b>Registro</b></legend>
+        <br>
+        <div class="inputs">
+            <input type="text" name="Username" id="Username" class="input__username" required>
+            <label for="Username">Nome completo</label>
+        </div>
+        <br>
+        <div class="inputs">
+            <input type="email" name="Email" id="Email" class="input__email" required>
+            <label for="Email">Email</label>
+        </div>
+        <br>
+        <div class="inputs">
+            <input type="tel" name="Phone" id="Phone" class="input__phone" required>
+            <label for="Username">Telefone</label>
+        </div>
+        <br>
+        <p class="texto__genero">Gênero:</p>
+        <input type="radio" name="Genero" id="Feminino" value="Feminino" class="input__genero" required>
+        <label for="Feminino">Feminino</label>
+        <br>
+        <input type="radio" name="Genero" id="Masculino" value="Masculino" class="input__genero" required>
+        <label for="Masculino">Masculino</label>
+        <br>
+        <input type="radio" name="Genero" id="Outro" value="Outro" class="input__genero" required>
+        <label for="Outro">Outro</label>
+        <br>
+        <div class="inputData inputs">
+            <label for="Data__Nascimento"><b>Data de nascimento:</b></label>
+            <input type="date" name="Data__Nascimento" id="Data__Nascimento" class="input__data">
+        </div>
+        <div class="inputs">
+            <input type="text" name="Cidade" id="Cidade" class="input__cidade" required>
+            <label for="Cidade">Cidade</label>
+        </div>
+        <div class="inputs">
+            <input type="text" name="Estado" id="Estado" class="input__estado" required>
+            <label for="Estado">Estado</label>
+        </div>
+        <div class="inputs">
+            <input type="text" name="Endereco" id="Endereco" class="input__endereco" required>
+            <label for="Endereco">Endereço</label>
+        </div>
+        <input type="submit" name="submit" id="submit" class="submit__registro inputs">
+        </fieldset>
+    </form>
+</div>
+    <script src="js/main.js"></script>
+</body>
+</html>
