@@ -142,7 +142,7 @@ body.light h2{
 }
 
 .apresentacao__conteudo__imagem{
-    width: 500px;
+    width: 25vw;
 }
 body.light ul{
     color: var(--roxinho);
