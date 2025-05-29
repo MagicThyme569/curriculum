@@ -45,7 +45,7 @@ color: white;
     transition: background-color 1s ease, 1s ease;
 }
 .cabecalho__menu__links__link:hover{
-    color: purple;
+    color: cyan;
     
 }
 .apresentacao__imagem{
