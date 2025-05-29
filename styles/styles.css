@@ -142,8 +142,27 @@ body.light h2{
 }
 
 .apresentacao__conteudo__imagem{
-    width: 15vw;
+    width: 20%;
+    border-radius: 200px;
+    transition: background-color is ease, padding is ease;
 }
+.apresentacao__conteudo__imagem:hover{
+    width:14vw;
+    background-color: cyan;
+    padding: 20px;
+}
+
+/*.apresentacao__imagem{
+width: 20%;
+border-radius: 200px;
+transition: background-color 1s ease, padding 1s ease;
+}
+.apresentacao__imagem:hover{
+    width: 14vw;
+    background-color: lightgreen;
+    padding: 20px;*/
+
+
 body.light ul{
     color: var(--roxinho);
 }
