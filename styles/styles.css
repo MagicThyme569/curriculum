@@ -147,9 +147,9 @@ body.light h2{
     transition: background-color 1s ease, padding 1s ease;
 }
 .apresentacao__conteudo__imagem:hover{
-    width:5vw;
+    width:14vw;
     background-color: cyan;
-    padding: 5px;
+    padding: 5vw;
 }
 
 /*.apresentacao__imagem{
