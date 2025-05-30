@@ -149,7 +149,7 @@ body.light h2{
 .apresentacao__conteudo__imagem:hover{
     width:14vw;
     background-color: cyan;
-    padding: 10px;
+    padding: 5px;
 }
 
 /*.apresentacao__imagem{
