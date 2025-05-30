@@ -142,14 +142,14 @@ body.light h2{
 }
 
 .apresentacao__conteudo__imagem{
-    width: 20%;
+    width: 2%;
     border-radius: 200px;
     transition: background-color 1s ease, padding 1s ease;
 }
 .apresentacao__conteudo__imagem:hover{
     width:14vw;
     background-color: cyan;
-    padding: 200px;
+    padding: 20px;
 }
 
 /*.apresentacao__imagem{
